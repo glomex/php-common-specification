@@ -5,7 +5,6 @@ namespace Glomex\Common\Specification;
 
 /**
  * Interface SpecificationInterface
- * @package Glomex\Common\Specification
  */
 interface SpecificationInterface
 {

@@ -5,7 +5,6 @@ namespace Glomex\Common\Specification;
 
 /**
  * AND Composite Specification
- * @package Glomex\Common\Specification
  */
 class AndSpecification extends CompositeSpecification
 {
@@ -14,7 +13,7 @@ class AndSpecification extends CompositeSpecification
 
     /**
      * AndSpecification constructor.
-     * @param SpecificationInterface[] ...$specifications
+     * @param SpecificationInterface ...$specifications
      */
     public function __construct(SpecificationInterface ...$specifications)
     {

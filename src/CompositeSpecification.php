@@ -3,13 +3,8 @@ declare(strict_types=1);
 
 namespace Glomex\Common\Specification;
 
-use Glomex\Common\Specification\AndSpecification;
-use Glomex\Common\Specification\NotSpecification;
-use Glomex\Common\Specification\OrSpecification;
-
 /**
  * Abstract Composite Specification
- * @package Glomex\Common\Specification
  */
 abstract class CompositeSpecification implements SpecificationInterface
 {

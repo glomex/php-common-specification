@@ -5,16 +5,15 @@ namespace Glomex\Common\Specification;
 
 /**
  * Or Composite Specification
- * @package Glomex\Common\Specification
  */
-class OrSpecification
+class OrSpecification extends CompositeSpecification
 {
     /** @var SpecificationInterface[] */
     private $specifications;
 
     /**
      * OrSpecification constructor.
-     * @param SpecificationInterface[] ...$specifications
+     * @param SpecificationInterface ...$specifications
      */
     public function __construct(SpecificationInterface ...$specifications)
     {

@@ -5,7 +5,6 @@ namespace Glomex\Common\Specification;
 
 /**
  * Not Composite Specification
- * @package Glomex\Common\Specification
  */
 class NotSpecification extends CompositeSpecification
 {
